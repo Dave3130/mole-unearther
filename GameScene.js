@@ -39,7 +39,7 @@ class GameScene extends Phaser.Scene {
 		// calls the spritesheet function to load in the mole as a spritesheet to make animations, and assigns it to the mole key
 		// the mole is loaded from the given url with the given width and height
 		this.load.spritesheet('mole',
-			'mole-sprit.png',
+			'assests/mole-sprite.png',
 			{ frameWidth: 198, frameHeight: 250 });
 	}
 
